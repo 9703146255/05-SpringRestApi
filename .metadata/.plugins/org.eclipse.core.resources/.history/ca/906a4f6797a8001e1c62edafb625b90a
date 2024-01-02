@@ -1,0 +1,23 @@
+package in.thiru;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class EmployeeRestController 
+{
+	
+	@GetMapping("/welcome/{location}")
+	public String getWelcomeMsg(@PathVariable("location") String location)
+	{
+		return "welcome to hyderabad... you should watch :: ";
+	}
+	
+	@GetMapping("/greet")
+	public String greetMsg()
+	{
+		return "wish you happy new year your dreams comes true these year thiru";
+	}
+
+}

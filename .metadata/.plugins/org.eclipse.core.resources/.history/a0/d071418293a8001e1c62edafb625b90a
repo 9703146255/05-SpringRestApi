@@ -1,0 +1,10 @@
+package in.thiru;
+
+public class JavaToJson {
+	
+	public static void main(String[] args) 
+	{
+		Employee emp1=new Employee();
+	}
+
+}

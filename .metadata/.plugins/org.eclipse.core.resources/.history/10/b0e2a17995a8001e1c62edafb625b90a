@@ -1,0 +1,9 @@
+package in.thiru;
+
+public class JsonToJavaObj {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

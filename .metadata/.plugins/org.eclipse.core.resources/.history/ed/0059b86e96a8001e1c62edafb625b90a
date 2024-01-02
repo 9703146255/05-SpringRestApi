@@ -1,0 +1,14 @@
+package in.thiru;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class EmployeeRestController 
+{
+	
+	public String getWelcomeMsg()
+	{
+		
+	}
+
+}

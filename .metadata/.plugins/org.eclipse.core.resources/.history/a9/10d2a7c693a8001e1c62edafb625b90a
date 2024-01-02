@@ -1,0 +1,15 @@
+package in.thiru;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class JavaToJson {
+	
+	public static void main(String[] args) 
+	{
+		Employee emp1=new Employee(101, "thirumalesh", 10000.00, "hyderabad");
+		
+		ObjectMapper mapper1=new ObjectMapper();
+		mapper1.writer(new File("Employee.json"),emp1)
+	}
+
+}
